@@ -1,0 +1,8 @@
+.keys
+**/__pycache__
+**/*.pyc
+.data
+.venv
+.env
+.vscode
+tmp
