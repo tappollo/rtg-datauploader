@@ -38,9 +38,9 @@ It's tricky installing the requirements for each machine and running it. for sce
 ### Windows 
 
  1. Do the initial installation above
- 1. install pyinstaller: `pip install pyinstaller`
- 1. run `pyinstaller {flags} upload-to-s3.py`
-    1. Depending on your choice, add the following flags
+ 1. Install pyinstaller: `pip install pyinstaller`
+ 1. Run `pyinstaller {flags} upload-to-s3.py`
+    1. Depending on your choice, add the following flags For further explanation of the flags[refer to the docs here](https://pyinstaller.readthedocs.io/en/stable/operating-mode.html#analysis-finding-the-files-your-program-needs)
         1. `--onefolder`  if you want the resulting executable to be under a folder with the executable inside. Dependencies it needs are not bundled inside the `executable` file.
         1. `--onefile` if you want everything bundled into the resulting `executable` file
     1. for python 3.10 or if the result of command shows `ImportError: No module named _bootlocale`: include the following flag `--exclude-module _bootlocale`
