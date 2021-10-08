@@ -55,5 +55,5 @@ python upload-to-s3.py --source /path/to/file --bucket aws-bucket-name --access-
 
 ### Executable (windows)
 ```bash
- upload-to-s3.exe --source /path/to/file --bucket aws-bucket-name --access-key=AWSACCESSKEYID --secret-key=SECRETKEY
+ /path/to/upload-to-s3.exe --source /path/to/file --bucket aws-bucket-name --access-key=AWSACCESSKEYID --secret-key=SECRETKEY
 ```
